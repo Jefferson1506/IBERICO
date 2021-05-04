@@ -15,32 +15,11 @@ namespace Proyecto_IBERICO.Presentacion
         public Registro_Usuarios()
         {
             InitializeComponent();
-            ocultarCampos();
+           
+            panel_Provvrerdo.Visible = false;
         }
         
-        private  void ocultarCampos()
-        {
-            lbCod_Hierro.Visible = false;
-            lbDireccion_Proveedor.Visible = false;
-            lbNom_Proveedor.Visible = false;
-            lbCod_Proveedor.Visible = false;
-            lbCalle_Provee.Visible = false;
-            lbZona_Proveedor.Visible = false;
-            lbManzana_Proveedor.Visible = false;
-            lbBarrio_Prove.Visible = false;
-
-            txtZona_Proveedor.Visible = false;
-            txtNombre_Proveedor.Visible = false;
-            txtManaza_proveedor.Visible = false;
-            txtCod_Proveedor.Visible = false;
-            txtCod_Hierro.Visible = false;
-            txtCalle_proveedor.Visible = false;
-            txtBarrio_Proveedor.Visible = false;
-            
-            //PARA CLIENTES
-
-
-        }
+       
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
@@ -53,7 +32,7 @@ namespace Proyecto_IBERICO.Presentacion
             {
                 checEmpleado.Visible = true;
                 checProveedor.Visible = true;
-                ocultarCampos();
+                panel_Provvrerdo.Visible = false;
             }
 
         }
@@ -71,7 +50,7 @@ namespace Proyecto_IBERICO.Presentacion
             {
                 checkCliente.Visible = true;
                 checProveedor.Visible = true;
-                ocultarCampos();
+                panel_Provvrerdo.Visible = false;
             }
 
 
@@ -83,13 +62,14 @@ namespace Proyecto_IBERICO.Presentacion
             {
                 checkCliente.Visible = false;
                 checEmpleado.Visible = false;
-                camposProveedor();
+                panel_Provvrerdo.Visible = true;
+                
             }
             else
             {
                 checkCliente.Visible = true;
                 checEmpleado.Visible = true;
-                ocultarCampos();
+                panel_Provvrerdo.Visible = false;
             }
         }
 
@@ -136,6 +116,9 @@ namespace Proyecto_IBERICO.Presentacion
 
         }
 
-       
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
     }

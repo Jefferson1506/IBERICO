@@ -98,7 +98,7 @@ namespace Proyecto_IBERICO.Presentacion
             this.btExit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btExit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btExit.Location = new System.Drawing.Point(64, 362);
+            this.btExit.Location = new System.Drawing.Point(54, 430);
             this.btExit.Name = "btExit";
             this.btExit.Size = new System.Drawing.Size(87, 52);
             this.btExit.TabIndex = 5;

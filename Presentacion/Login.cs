@@ -34,9 +34,10 @@ namespace Proyecto_IBERICO
 
         private void btRegistro_Click(object sender, EventArgs e)
         {
-            Presentacion.Registro_Usuarios registro_Usuarios =
-                new Presentacion.Registro_Usuarios();
-            registro_Usuarios.Show();
+            Presentacion.Registro_Empleados registro_Empleados =
+                new Presentacion.Registro_Empleados();
+            registro_Empleados.Show();
+
         }
 
         private void label1_Click(object sender, EventArgs e) { }//no va hacer nada 

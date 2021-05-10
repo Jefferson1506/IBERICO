@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_IBERICO.Presentacion
 {
-    public partial class Form4 : Form
+    public partial class MegaMenu : Form
     {
-        public Form4()
+        public MegaMenu()
         {
             InitializeComponent();
         }

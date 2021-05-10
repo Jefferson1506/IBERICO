@@ -17,7 +17,7 @@ namespace Proyecto_IBERICO
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Presentacion.Registro_Usuarios());
+            Application.Run(new Presentacion.Facturacion());
         }
     }
 }

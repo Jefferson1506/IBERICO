@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Presentacion\Facturacion.Designer.cs~RF1ba09fc.TMP" />
     <None Remove="Presentacion\Registro_Usuarios.resx~RF8317ef.TMP" />
   </ItemGroup>
 

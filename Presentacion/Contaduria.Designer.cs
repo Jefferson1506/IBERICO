@@ -40,6 +40,7 @@ namespace Proyecto_IBERICO.Presentacion
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.Label_valor_salario = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -141,11 +142,21 @@ namespace Proyecto_IBERICO.Presentacion
             this.Label_valor_salario.Text = "Valor del Salario";
             this.Label_valor_salario.Click += new System.EventHandler(this.label4_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(127, 182);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(38, 15);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "label4";
+            // 
             // Contaduria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.Label_valor_salario);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
@@ -176,5 +187,6 @@ namespace Proyecto_IBERICO.Presentacion
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label Label_valor_salario;
+        private System.Windows.Forms.Label label4;
     }
 }
